@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering the Nation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        .course-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .course-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            min-height: 200px;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+            position: relative;
+            z-index: 1;
+        }
+        .course-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: -1;
+            border-radius: 5px;
+        }
+        .course-item a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        label, input, select {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        button {
+            background-color: #4a90e2;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Picture6-rEKyiL4Wpg4pRd56udEgZmKBKlhmax.png" alt="Empowering the Nation Logo" style="max-width: 200px;">
+        <h1>Empowering the Nation</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#six-month-courses">Six-Month Courses</a></li>
+            <li><a href="#six-week-courses">Six-Week Courses</a></li>
+            <li><a href="#calculate-fees">Calculate Fees</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to Empowering the Nation</h2>
+            <p>We provide skills training for domestic workers and gardeners, helping them become more marketable and enabling higher pay rates.</p>
+        </section>
+        
+        <section id="six-month-courses">
+            <h2>Six-Month Courses</h2>
+            <div class="course-list">
+                <div class="course-item" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Picture4-qUg75HUlylr0gFf2cJxBEoUgG4z2h1.jpg')">
+                    <h3>First Aid</h3>
+                    <p>Fee: R1500</p>
+                    <a href="#first-aid">Learn More</a>
+                </div>
+                <div class="course-item" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Picture3-8SEytEnzRdBhR3gb5G1VdrOizmtjQ9.jpg')">
+                    <h3>Sewing</h3>
+                    <p>Fee: R1500</p>
+                    <a href="#sewing">Learn More</a>
+                </div>
+                <div class="course-item" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Picture8-kOoTm4qEKCdYp7uSdcxyxWpEEnlsUH.jpg')">
+                    <h3>Landscaping</h3>
+                    <p>Fee: R1500</p>
+                    <a href="#landscaping">Learn More</a>
+                </div>
+                <div class="course-item" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Picture2-BmthTCR0TfQuvAMkZjsRZpKjKL8G4r.jpg')">
+                    <h3>Life Skills</h3>
+                    <p>Fee: R1500</p>
+                    <a href="#life-skills">Learn More</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="six-week-courses">
+            <h2>Six-Week Courses</h2>
+            <div class="course-list">
+                <div class="course-item" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Picture5-BdXdkAJV8v7FNSC6IsJLwNtlyUa0NN.jpg')">
+                    <h3>Child Minding</h3>
+                    <p>Fee: R750</p>
+                    <a href="#child-minding">Learn More</a>
+                </div>
+                <div class="course-item" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Picture9-U4fWxHTsI2sbeBWFhbkYcdiZEeDTlp.jpg')">
+                    <h3>Cooking</h3>
+                    <p>Fee: R750</p>
+                    <a href="#cooking">Learn More</a>
+                </div>
+                <div class="course-item" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Picture1-dEL9KhzYaIDxf9AQO7zYFjnaQ4929t.jpg')">
+                    <h3>Garden Maintenance</h3>
+                    <p>Fee: R750</p>
+                    <a href="#garden-maintenance">Learn More</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="calculate-fees">
+            <h2>Calculate Total Fees</h2>
+            <form id="fee-calculator">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="courses">Select Courses:</label>
+                <select id="courses" name="courses" multiple required>
+                    <option value="first-aid">First Aid</option>
+                    <option value="sewing">Sewing</option>
+                    <option value="landscaping">Landscaping</option>
+                    <option value="life-skills">Life Skills</option>
+                    <option value="child-minding">Child Minding</option>
+                    <option value="cooking">Cooking</option>
+                    <option value="garden-maintenance">Garden Maintenance</option>
+                </select>
+                
+                <button type="button" onclick="calculateFees()">Calculate Fees</button>
+            </form>
+            <div id="fee-result"></div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: 123-456-7890</p>
+            <p>Email: info@empoweringthenation.com</p>
+            <h3>Our Venues:</h3>
+            <ul>
+                <li>Johannesburg Central: 123 Main St, Johannesburg</li>
+                <li>Soweto: 456 Vilakazi St, Soweto</li>
+                <li>Sandton: 789 Rivonia Rd, Sandton</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Empowering the Nation. All rights reserved.</p>
+    </footer>
+    <script>
+        function calculateFees() {
+            const selectedCourses = Array.from(document.getElementById('courses').selectedOptions).map(option => option.value);
+            const courseFees = {
+                'first-aid': 1500,
+                'sewing': 1500,
+                'landscaping': 1500,
+                'life-skills': 1500,
+                'child-minding': 750,
+                'cooking': 750,
+                'garden-maintenance': 750
+            };
+            
+            let totalFee = selectedCourses.reduce((sum, course) => sum + courseFees[course], 0);
+            let discount = 0;
+            
+            if (selectedCourses.length === 2) {
+                discount = 0.05;
+            } else if (selectedCourses.length === 3) {
+                discount = 0.10;
+            } else if (selectedCourses.length > 3) {
+                discount = 0.15;
+            }
+            
+            const discountedTotal = totalFee * (1 - discount);
+            const finalTotal = discountedTotal * 1.15; // Adding 15% VAT
+            
+            document.getElementById('fee-result').innerHTML = `
+                <h3>Fee Calculation</h3>
+                <p>Subtotal: R${totalFee.toFixed(2)}</p>
+                <p>Discount: ${(discount * 100).toFixed(0)}%</p>
+                <p>Discounted Total: R${discountedTotal.toFixed(2)}</p>
+                <p>Final Total (including 15% VAT): R${finalTotal.toFixed(2)}</p>
+            `;
+        }
+    </script>
+</body>
+</html>
